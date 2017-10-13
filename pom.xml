@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rojaware</groupId>
-  <artifactId>Spring4RestCrud</artifactId>
+  <artifactId>vue-spring-user</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Spring4RestCrud Maven Webapp</name>
+  <name>VueJS with Spring REST User Management</name>
       <properties>
         <springframework.version>4.2.0.RELEASE</springframework.version>
         <jackson.version>2.5.3</jackson.version>
@@ -55,13 +55,13 @@
                     <version>2.4</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>Spring4RestCrud</warName>
+                        <warName>vue-spring-user</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
  
-        <finalName>Spring4RestCrud</finalName>
+        <finalName>vue-spring-user</finalName>
     </build>
 </project>

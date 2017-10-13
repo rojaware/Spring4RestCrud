@@ -17,7 +17,8 @@ import com.rojaware.spring4rest.model.User;
 
 public class SpringRestTestClient {
  
-    public static final String REST_SERVICE_URI = "http://localhost:9080/Spring4RestCrud";
+    public static final String REST_SERVICE_URI = "http://localhost:8080/vue-spring-user";
+//    public static final String REST_SERVICE_URI = "http://localhost:9080/vue-spring-user";
      
     /* GET */
     @SuppressWarnings("unchecked")
